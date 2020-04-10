@@ -2,7 +2,6 @@
 jQuery(function(){
 	"use strict";
 	
-	initNavOpener();
 	initPreLoader();	
 	initStickyHeader();
 });
@@ -16,20 +15,6 @@ jQuery(window).on('load', function() {
 // PreLoader init
 function initPreLoader() {
 	jQuery('#pre-loader').delay(1200).fadeOut();
-}
-// NavOpener init
-function initNavOpener() {
-	jQuery(".side-close , .side-opener , .mt-side-over").click(function(){
-		jQuery("body").toggleClass("side-col-active");
-		jQuery(".side-opener").toggleClass("active");
-		jQuery(".mt-side-over").toggleClass("active");
-		return false;
-	});
-	jQuery(".mobile-toggle").click(function(){
-		jQuery("body").toggleClass("mobile-active");
-		jQuery(".mobile-toggle").toggleClass("active");
-		return false;
-	});
 }
 
 // sticky header init
