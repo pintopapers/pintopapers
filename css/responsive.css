@@ -2,6 +2,9 @@
 	.hidden-sm {
 		display: none !important;
 	}
+	.mt-logo {
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -140,11 +143,6 @@
 		line-height: 50px;
 	}
 
-	.mt-mainslider2 h2 {
-		font-size: 35px;
-		line-height: 50px;
-	}
-
 	.banner .holder {
 		padding: 24px 15px 10px 10px;
 	}
@@ -245,68 +243,17 @@
 	}
 
 	#mt-footer .col-xs-12.text-right {
-		text-align: center;
+		text-align: center !important;
 	}
 
 	.mt-contact-detail .contact-txt li {
 		margin: 0 0 20px;
 		float: none;
 	}
-
-	.mt-mainslider2 .text {
-		width: 92%;
-	}
-
-	.mt-mainslider2 .title {
-		font-size: 10px;
-		margin: 0 0 6px;
-		line-height: 12px;
-	}
-
+	
 	.mt-mainslider2 h1 {
 		font-size: 25px;
 		line-height: 30px;
-	}
-
-	.mt-mainslider2 h2 {
-		font-size: 20px;
-		line-height: 25px;
-	}
-
-	.mt-mainslider2 p {
-		font-size: 12px;
-		line-height: 15px;
-	}
-
-	.mt-mainslider2 .caption.add2 .text,
-	.mt-mainslider2 .caption.add .text {
-		width: 100%;
-		padding: 0 15px 10px;
-	}
-
-	.mt-mainslider2 .caption.add2 .sub-title,
-	.mt-mainslider2 .caption.add .sub-title {
-		margin: 0;
-		font-size: 10px;
-		line-height: 15px;
-	}
-
-	.mt-mainslider2 .caption.add2 h1,
-	.mt-mainslider2 .caption.add h1 {
-		margin: 0;
-		font-size: 25px;
-		line-height: 25px;
-	}
-
-	.mt-mainslider2 .caption.add2 h2,
-	.mt-mainslider2 .caption.add h2 {
-		margin: 0;
-		font-size: 22px;
-		line-height: 25px;
-	}
-
-	.mt-heading {
-		font-size: 12px;
 	}
 
 	.mt-heading .heading {
