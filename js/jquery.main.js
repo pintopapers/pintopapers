@@ -2,20 +2,8 @@
 jQuery(function(){
 	"use strict";
 	
-	initPreLoader();	
 	initStickyHeader();
 });
-
-jQuery(window).on('load', function() {
-	"use strict";
-
-	initPreLoader();
-});
-
-// PreLoader init
-function initPreLoader() {
-	jQuery('#pre-loader').delay(1200).fadeOut();
-}
 
 // sticky header init
 function initStickyHeader() {
