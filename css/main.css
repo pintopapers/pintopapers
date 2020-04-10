@@ -53,7 +53,11 @@ a:hover {
 
 #mt-header {
 	z-index: 4;
-	position: relative;
+	position: fixed;
+	color: #a1a1a1;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 #mt-header a:hover {
@@ -68,10 +72,6 @@ a:hover {
 #mt-header .icon-magnifier {
 	position: relative;
 	top: 2px;
-}
-
-#mt-header {
-	color: #a1a1a1;
 }
 
 #mt-header .mt-bottom-bar {
