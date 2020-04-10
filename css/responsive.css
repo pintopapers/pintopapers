@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 580px) {
 	.hidden-sm {
 		display: none !important;
 	}
@@ -183,15 +183,6 @@
 		padding: 15px 0;
 	}
 
-	.mt-bottom-bar .mt-icon-list li {
-		margin: 0 0 0 4px;
-	}
-
-	.mt-bottom-bar .mt-icon-list .mt-drop {
-		right: -38px;
-		width: 297px;
-	}
-
 	.mt-bottom-bar .mt-sh-cart {
 		width: 42px;
 		height: 34px;
@@ -254,7 +245,7 @@
 	}
 
 	#mt-footer .col-xs-12.text-right {
-		text-align: left;
+		text-align: center;
 	}
 
 	.mt-contact-detail .contact-txt li {
